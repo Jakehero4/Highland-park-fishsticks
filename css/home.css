@@ -71,8 +71,7 @@ hr {
 
 html {
   background-image: url("https://jakehero4.github.io/Highland-park-fishsticks/img/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center middle;
 }
 
