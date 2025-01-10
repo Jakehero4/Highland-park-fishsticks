@@ -1,70 +1,62 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Google Sites</title>
-    <link rel="shortcut icon" href="https://ssl.gstatic.com/atari/images/public/sites-favicon-2023q4.ico">
-    <link rel="stylesheet" href="css/home.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex,nofollow" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta charset="utf-8"> 
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRKNHWYBXN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-MRKNHWYBXN');
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Unavailable</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease-in-out;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+        h1, p {
+            user-select: none; /* Makes text unselectable */
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0 0 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
 </head>
-
 <body>
-    <div class="notifications" id="notifications"></div>
-    <main id="main">
-        <div id="bgFilter"></div>
-        <div class="topHeader">
-            <div class="buttons">
-                <a target="_blank" href="https://forms.gle/wRjANHLeSoAidRvc6">Request a new game</a>
-                <a target="_blank" href="https://butterdogceo.github.io/requests/">View suggestion statuses</a>
-            </div>
-            <span><b>UPDATE | November 22nd</b><br>Added a new app, and fixed a major issue with the website.</span>
-        </div>
-        <h1 style="margin-top: 100px;">Welcome to <p class="name">Highland Park Fishsticks</p></h1>
-        <form id="searchForm">
-            <p id="results"> </p>
-            <input type="text" placeholder="Search" id="searchInput">
-            <button id="clear" title="Clear">X</button>
-        </form>
-        <h1 style="left: -25%" id="newTitle">Newly Updated</h1>
-        <h1 id="favoritesTitle">Favorites</h1>
-        <div class="appsGroup">
-            <div class="apps smallApps" id="newApps">
-                <button class="placeholder" id="newPlaceholder">No recently updated apps</button>
-            </div>
-            <div class="apps smallApps" id="favorite">
-                <button class="placeholder" id="favoritePlaceholder">Favorited apps appear here</button>
-            </div>
-        </div>
-        <hr>
-        <div class="apps" id="apps"></div>
-        <h1 class="emulatorsSection">Emulators</h1>
-        <div class="apps emulatorsSection" id="emulators">
-            <button class="placeholder" id="emulatorPlaceholder">Emulators appear here</button>
-        </div>
-        <p class="disclaimer">Welcome to Highland Park Fishsticks, created by ButterDogCo. By using this site, you agree to our <a href="https://butterdogceo.github.io/bdogco/tos">Terms of Service</a>.</p>
-    </main>
-
-    <!-- <script src="//cdn.jsdelivr.net/npm/eruda"></script>
-    <script>eruda.init();</script> -->
-
-    <script src="js/apps.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/appHandler.js"></script>
-    <script src="js/context.js"></script>
-    <script src="js/main.js"></script>
+    <div class="container">
+        <h1>Site Unavailable</h1>
+        <p>Unfortunately, this website has been taken down due to similarities with another site. We regret any inconvenience caused.</p>
+    </div>
 </body>
-
 </html>
